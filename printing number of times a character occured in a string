@@ -1,0 +1,13 @@
+from operator import itemgetter
+def most_frequent(string):
+    dict1={}
+    for i in range(0,m):
+        l=n.count(n[i])
+        dict1[n[i]]=l
+    dict1=dict(sorted(dict1.items(),reverse=True,key=itemgetter(1)))
+    print(dict1)
+        
+if __name__=="__main__":
+    n=input("Enter the string:")
+    m=len(n)
+    most_frequent(n)
